@@ -1,5 +1,8 @@
-        Project Name : MEAT-HUB (Clone of licious Website)
-        Proejct Logo :
+# Project Name : MEAT-HUB (Clone of licious Website)
+
+# Project Logo : ![My Image](./Images/Meat-hub-logo.jpg)
+
+--
 
 # Getting Started with Create React App
 
