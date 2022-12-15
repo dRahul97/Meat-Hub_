@@ -3,7 +3,7 @@ import Home from "./Components/Home/Home.jsx";
 
 function App() {
   return (
-    <div>
+    <div style={{ backgroundColor: "#f7f5f6" }}>
       <Home />
     </div>
   );
