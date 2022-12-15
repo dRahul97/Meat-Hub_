@@ -27,8 +27,7 @@ const NavLink = ({ children }) => (
       textDecoration: "none",
       bg: useColorModeValue("gray.200", "gray.700"),
     }}
-    href={"#"}
-    zIndex={12345}
+    href={"/"}
   >
     {children}
   </Link>
@@ -44,6 +43,7 @@ export default function Simple() {
         px={4}
         position="fixed"
         width={"100vw"}
+        zIndex={1600}
       >
         <Flex h={20} alignItems={"center"} justifyContent={"space-around"}>
           <IconButton

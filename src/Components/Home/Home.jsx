@@ -3,23 +3,17 @@ import Navbar from "./Navbar/Navbar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShopByCategory from "./ShopByCategory";
+import knowLiciousWay from "../Images/Know-the-licious-way.jpg";
+import ExploreByCategory from "./ExploreByCategory";
+import CheckoutOutBlog from "./CheckoutOutBlog";
 
 const Home = () => {
   const sliderImages = [
     {
       id: 1,
       image:
-        "https://d2407na1z3fc0t.cloudfront.net/homepageStaticBanner/homepageStaticBanner_62a34bff287c9",
-    },
-    {
-      id: 2,
-      image:
         "https://d2407na1z3fc0t.cloudfront.net/Slider/banner_63630e9d6ba0e",
-    },
-    {
-      id: 3,
-      image:
-        "https://d2407na1z3fc0t.cloudfront.net/homepageStaticBanner/homepageStaticBanner_62a34bff287c9",
     },
   ];
 
@@ -33,35 +27,49 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div style={{ paddingTop: "80px" }}>
-        <Slider {...settings}>
+      <hr />
+      <div style={{ paddingTop: "100px" }}>
+        <Slider {...settings} w={"100vw"}>
           {sliderImages.map((item) => (
             <div className="card">
               <img src={item.image} alt="" />
-              <h1>Image {item.id}</h1>
             </div>
           ))}
         </Slider>
       </div>
-      <div style={{ paddingTop: "80px" }}>
-        <Slider {...settings}>
-          {sliderImages.map((item) => (
-            <div className="card">
-              <img src={item.image} alt="" />
-              <h1>Image {item.id}</h1>
-            </div>
-          ))}
-        </Slider>
+      <ShopByCategory />
+      <div>
+        <img src={knowLiciousWay} alt="" />
       </div>
-      <div style={{ paddingTop: "80px" }}>
-        <Slider {...settings}>
-          {sliderImages.map((item) => (
-            <div className="card">
-              <img src={item.image} alt="" />
-              <h1>Image {item.id}</h1>
-            </div>
-          ))}
-        </Slider>
+      <div
+        style={{
+          display: "flex",
+          // border: "1px solid",
+          width: "100%",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <img
+          src="https://dao54xqhg9jfa.cloudfront.net/OMS-StaticBanner/a5372f18-3f0a-a801-0160-cb20957f3acd/original/static-bank-units-nov-web.jpg?format=webp"
+          alt=""
+        />
+      </div>
+      <ExploreByCategory />
+      <CheckoutOutBlog />
+      <div
+        style={{
+          display: "flex",
+          // border: "1px solid",
+          width: "100%",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <img
+          src="https://d2407na1z3fc0t.cloudfront.net/homepageStaticBanner/homepageStaticBanner_62a34bff287c9"
+          alt=""
+        />
       </div>
     </>
   );
