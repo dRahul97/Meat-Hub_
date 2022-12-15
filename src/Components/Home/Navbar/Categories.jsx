@@ -5,7 +5,7 @@ const Categories = () => {
     <>
       <img
         src="https://www.licious.in/img/rebranding/category-dropdown-icon.svg"
-        alt=""
+        alt="categories logo"
       />
     </>
   );
