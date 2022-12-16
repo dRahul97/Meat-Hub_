@@ -22,6 +22,7 @@ const Categories = () => {
       <Menu>
         <MenuButton className={navStyle.btnColor}>Categories</MenuButton>
         <MenuList
+          className={navStyle.overflow}
           style={{ overflowY: "scroll", height: "510px", padding: "10px" }}
         >
           <Link to={"/"}>
