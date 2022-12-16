@@ -7,6 +7,8 @@ import ShopByCategory from "./ShopByCategory";
 import knowLiciousWay from "../Images/Know-the-licious-way.jpg";
 import ExploreByCategory from "./ExploreByCategory";
 import CheckoutOutBlog from "./CheckoutOutBlog";
+import SlideShow from "./SlideShow";
+import Footer from "../Footer/Footer.jsx";
 
 const Home = () => {
   const sliderImages = [
@@ -70,6 +72,12 @@ const Home = () => {
           src="https://d2407na1z3fc0t.cloudfront.net/homepageStaticBanner/homepageStaticBanner_62a34bff287c9"
           alt=""
         />
+      </div>
+      <div>
+        <SlideShow />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );
