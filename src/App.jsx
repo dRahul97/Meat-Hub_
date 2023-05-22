@@ -8,8 +8,8 @@ function App() {
     //style={{ backgroundColor: "#f7f5f6" }}
     <div>
       <Navbar />
-      <MainRoutes />
-      <Footer />
+      {/* <MainRoutes /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
