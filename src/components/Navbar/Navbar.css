@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"); */
+
+#nav-container {
+  /* border: 1px solid; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  font-family: "Lato", sans-serif;
+}
+
+#navbar {
+  /* border: 1px solid; */
+  width: 75%;
+  background-color: #ffffff;
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+#nav-logo {
+  /* border: 1px solid; */
+  width: 17%;
+  height: 55%;
+}
+
+.nav-section {
+  /* border: 1px solid; */
+  display: flex;
+  gap: 8px;
+}
+.nav-section p {
+  font-size: 0.9rem;
+}

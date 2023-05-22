@@ -1,12 +1,37 @@
 import React from "react";
-import styled from "styled-components";
+import "./Navbar.css";
+import navLogo from "../../Assets/Meat-hub-logo.jpg";
+import Searchbar from "../Searchbar/Searchbar";
 
 export const Navbar = () => {
-  return <DIV>Navbar</DIV>;
+  return (
+    <div id="nav-container">
+      <div id="navbar">
+        <img id="nav-logo" src={navLogo} alt="" />
+        <div id="nav-location">Location</div>
+        <Searchbar />
+        <div className="nav-section">
+          <img
+            src="https://www.licious.in/image/rebranding/svg/categories-grey.svg"
+            alt=""
+          />
+          <p>Categories</p>
+        </div>
+        <div className="nav-section">
+          <img
+            src="https://www.licious.in/image/rebranding/svg/profile-grey.svg"
+            alt=""
+          />
+          <p>Login</p>
+        </div>
+        <div className="nav-section">
+          <img
+            src="https://www.licious.in/image/rebranding/svg/cart.svg"
+            alt=""
+          />
+          <p>Cart</p>
+        </div>
+      </div>
+    </div>
+  );
 };
-
-const DIV = styled.div`
-  border: 1px solid;
-  width: 100%;
-  background-color: aqua;
-`;
