@@ -30,6 +30,33 @@
   display: flex;
   gap: 8px;
 }
-.nav-section p {
+
+.nav-sec-btn {
+  cursor: pointer;
   font-size: 0.9rem;
+}
+
+.nav-sec-btn:hover {
+  color: #d11243;
+}
+
+.overflow {
+  /* border: 1px solid red; */
+  overflow-y: scroll;
+  height: 510px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+.overflow::-webkit-scrollbar {
+  /* display: none; */
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  #nav-container {
+    background-color: red;
+  }
+  #navbar {
+    /* width: ; */
+  }
 }

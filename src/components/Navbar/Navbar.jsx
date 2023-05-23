@@ -2,6 +2,8 @@ import React from "react";
 import "./Navbar.css";
 import navLogo from "../../Assets/Meat-hub-logo.jpg";
 import Searchbar from "../Searchbar/Searchbar";
+import Categories from "./Categories";
+import { Login } from "../../Pages/Login/Login";
 
 export const Navbar = () => {
   return (
@@ -15,15 +17,16 @@ export const Navbar = () => {
             src="https://www.licious.in/image/rebranding/svg/categories-grey.svg"
             alt=""
           />
-          <p>Categories</p>
+          <Categories />
         </div>
         <div className="nav-section">
           <img
             src="https://www.licious.in/image/rebranding/svg/profile-grey.svg"
             alt=""
           />
-          <p>Login</p>
+          <Login />
         </div>
+
         <div className="nav-section">
           <img
             src="https://www.licious.in/image/rebranding/svg/cart.svg"
