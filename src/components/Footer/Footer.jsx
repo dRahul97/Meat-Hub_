@@ -5,7 +5,7 @@ export const Footer = () => {
   //#fdf3f6
   return (
     <>
-      <DIV>Footer</DIV>
+      <div> </div>
     </>
   );
 };

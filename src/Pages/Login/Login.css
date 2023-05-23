@@ -1,0 +1,8 @@
+.nav-sec-btn {
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.nav-sec-btn:hover {
+  color: #d11243;
+}

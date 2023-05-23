@@ -1,3 +1,10 @@
 .home-banner-div {
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
+  width: 70%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.home-banner-div img {
+  border-radius: 8px;
 }

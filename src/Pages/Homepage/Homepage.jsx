@@ -6,7 +6,7 @@ export const Homepage = () => {
     <>
       <div className="home-banner-div">
         <img
-          src="https://dao54xqhg9jfa.cloudfront.net/oms/d35e223b-0fae-e484-bac5-5f9680387dc4/original/BANNERS-02_(4).jpeg"
+          src="https://dao54xqhg9jfa.cloudfront.net/oms/2a91b6fe-0cd7-1fd7-38f1-62502e1f8432/original/WEB_NEW_50.jpeg"
           alt=""
         />
       </div>
