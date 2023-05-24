@@ -22,3 +22,21 @@
   top: 2px;
   color: #adadad;
 }
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  #search {
+    width: 90%;
+  }
+
+  #search::-webkit-input-placeholder {
+    color: transparent;
+  }
+
+  .s-icon {
+    /* border: 1px solid; */
+    position: relative;
+    right: 28px;
+    top: 2px;
+    color: #adadad;
+  }
+}
