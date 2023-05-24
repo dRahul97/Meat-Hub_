@@ -4,11 +4,15 @@ import navLogo from "../../Assets/Meat-hub-logo.jpg";
 import Searchbar from "../Searchbar/Searchbar";
 import Categories from "./Categories";
 import { Login } from "../../Pages/Login/Login";
+import { HamburgerIcon } from "@chakra-ui/icons";
 
 export const Navbar = () => {
   return (
     <div id="nav-container">
       <div id="navbar">
+        <div className="hamburger">
+          <HamburgerIcon boxSize={7} />
+        </div>
         <img id="nav-logo" src={navLogo} alt="" />
         <div id="nav-location">Location</div>
         <Searchbar />

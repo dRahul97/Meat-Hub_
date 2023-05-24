@@ -4,8 +4,12 @@
 
 #nav-container {
   /* border: 1px solid; */
+  width: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   font-family: "Lato", sans-serif;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
 }
 
 #navbar {
@@ -21,10 +25,18 @@
 
 #nav-logo {
   /* border: 1px solid; */
+  display: flex;
   width: 17%;
   height: 55%;
 }
 
+.hamburger {
+  display: none;
+}
+
+#nav-location {
+  display: flex;
+}
 .nav-section {
   /* border: 1px solid; */
   display: flex;
@@ -53,10 +65,28 @@
 }
 
 @media all and (min-width: 320px) and (max-width: 767px) {
+  #navbar {
+    /* border: 1px solid green; */
+    width: 100%;
+  }
+
   #nav-container {
+    width: 100%;
     background-color: red;
   }
-  #navbar {
-    /* width: ; */
+  .nav-section {
+    border: 1px solid;
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  #nav-logo {
+    /* border: 1px solid; */
+    display: none;
+  }
+
+  #nav-location {
+    display: none;
   }
 }

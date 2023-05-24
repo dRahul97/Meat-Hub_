@@ -9,6 +9,7 @@ const Searchbar = () => {
         id="search"
         type="text"
         placeholder="Search for any deleicious products"
+        onfocus="this.placeholder=''"
       />
       <AiOutlineSearch className="s-icon" size={23} />
     </div>
