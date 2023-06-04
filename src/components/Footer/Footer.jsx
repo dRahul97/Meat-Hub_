@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import "./Footer.css";
 import FooterSocial from "./FooterSocial";
-import { Button } from "@chakra-ui/react";
 
 export const Footer = () => {
   let Cities = [

@@ -5,6 +5,7 @@ import Searchbar from "../Searchbar/Searchbar";
 import Categories from "./Categories";
 import { Login } from "../../Pages/Login/Login";
 import { HamburgerIcon } from "@chakra-ui/icons";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
@@ -13,7 +14,9 @@ export const Navbar = () => {
         <div className="hamburger">
           <HamburgerIcon boxSize={7} />
         </div>
-        <img id="nav-logo" src={navLogo} alt="" />
+        <Link to="/" id="nav-logo">
+          <img src={navLogo} alt="" />
+        </Link>
         <div id="nav-location">Location</div>
         <Searchbar />
         <div className="nav-section">
@@ -23,13 +26,15 @@ export const Navbar = () => {
           />
           <Categories />
         </div>
-        <div className="nav-section">
-          <img
-            src="https://www.licious.in/image/rebranding/svg/profile-grey.svg"
-            alt=""
-          />
-          <Login />
-        </div>
+        <Link to="/">
+          <div className="nav-section">
+            <img
+              src="https://www.licious.in/image/rebranding/svg/profile-grey.svg"
+              alt=""
+            />
+            <Login />
+          </div>
+        </Link>
 
         <div className="nav-section">
           <img
