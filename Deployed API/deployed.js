@@ -1,3 +1,5 @@
-// Using Glitch
+// Using Render
 
-//https://closed-plant-reindeer.glitch.me/api/{query} ex. chicken,fish,etc
+//https://meathub-server.onrender.com/products
+//https://meathub-server.onrender.com/login
+//https://meathub-server.onrender.com/cart
