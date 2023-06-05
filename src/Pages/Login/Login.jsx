@@ -30,6 +30,7 @@ export const Login = () => {
         onClose={onClose}
         finalFocusRef={btnRef}
         size="sm"
+        zIndex={5000}
       >
         <DrawerOverlay />
         <DrawerContent

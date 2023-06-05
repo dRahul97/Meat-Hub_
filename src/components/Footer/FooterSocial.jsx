@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+// import { ReactNode } from "react";
 import {
   Box,
   Container,
@@ -6,8 +6,8 @@ import {
   SimpleGrid,
   Text,
   Link,
-  VisuallyHidden,
-  chakra,
+  // VisuallyHidden,
+  // chakra,
   useColorModeValue,
   Image,
   Flex,
@@ -15,7 +15,7 @@ import {
   HStack,
   FormLabel,
 } from "@chakra-ui/react";
-import { FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
+
 import navLogo from "../../Assets/Meat-hub-logo.jpg";
 
 export default function FooterSocial() {

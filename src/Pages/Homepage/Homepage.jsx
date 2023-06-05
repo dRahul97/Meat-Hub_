@@ -11,7 +11,7 @@ export const Homepage = () => {
   const bestsellerData = () => {
     try {
       axios
-        .get("http://localhost:7400/products?category=Chicken")
+        .get("https://meathub-server.onrender.com/products?category=Chicken")
         .then((res) => setBestSeller(res.data));
     } catch (e) {
       console.log(e);
@@ -20,7 +20,9 @@ export const Homepage = () => {
   const comboData = () => {
     try {
       axios
-        .get("http://localhost:7400/products?category=Chicken&subcat=combo")
+        .get(
+          "https://meathub-server.onrender.com/products?category=Chicken&subcat=combo"
+        )
         .then((res) => setCombo(res.data));
     } catch (e) {
       console.log(e);
