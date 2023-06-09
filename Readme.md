@@ -1,9 +1,17 @@
-<h2 align="center">Project Name : MEAT-HUB (licious Clone)</h2>
+<div align="center" padding="10%" style="display: flex;"  >
+  
 
+
+   <img src="https://github.com/dRahul97/Meat-Hub_/assets/90616584/d7e84911-678f-4fcf-9beb-76eea3385fad" width="22%" />
+  
+  </div>
+
+## About : 
 - Meat-Hub exists because we deserver better meat. Meat-Hub is designed by taking inspiration from licious web application which is an online meat delivery platform. Objective is to deliver fresh meat in less time.
 
 
-## Dependencies:
+
+## Dependencies :
   - redux
   - react-redux
   - redux-thunk
