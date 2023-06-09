@@ -1,6 +1,6 @@
 <h2 align="center">Project Name : MEAT-HUB (licious Clone)</h2>
 
-- Project Objective: The Tech stacks such as HTML, CSS, React, Redux, Netlify, etc. which I had learned with the help of that I tried to build this website.
+- Meat-Hub exists because we deserver better meat. Meat-Hub is designed by taking inspiration from licious web application which is an online meat delivery platform. Objective is to deliver fresh meat in less time.
 
 
 ## Dependencies:
